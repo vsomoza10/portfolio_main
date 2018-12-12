@@ -117,7 +117,7 @@ margin-top: 0;
 width: 180;
 }
 .overlay{
-  opacity: 0.2;
+  opacity: 0;
   transition:0.8s ease;
 }
 .wrapper:hover
@@ -134,7 +134,7 @@ img{
   position: relative;
 }
 .overlay1{
-  opacity: 0.2;
+  opacity: 0;
   transition:0.8s ease;
 }
 .wrapper1:hover
@@ -159,7 +159,7 @@ img{
 
 }
 .overlay2{
-  opacity: 0.2;
+  opacity: 0;
   transition:0.8s ease;
 }
 .wrapper2:hover
@@ -241,3 +241,29 @@ right: 130;
   margin-bottom: 30px;
   position: absolute;
 }
+.linkedIn_button{
+position: absolute;
+right: 170px;
+bottom:0px;
+top: 700px;
+text-align: right;
+  height: 32px;
+}
+.contact_links{
+  width: 100%
+}
+.gmail_button{
+  position: absolute;
+  right: 120px;
+  bottom:0px;
+  top: 700px;
+  text-align: right;
+    height: 32px;
+}
+.medium_button{
+position: absolute;
+right: 70px;
+bottom:0px;
+top: 700px;
+text-align: right;
+  height: 32px;
