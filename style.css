@@ -194,15 +194,12 @@ a:hover {
   text-decoration: underline;
 }
 body footer{
-  position: relative;
-  bottom: 0px;
-  height: 0px;
+position: absolute;
+top: 100%;
+bottom: 0;
   width: 100%;
   background-color: transparent;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+text-align: center;
 }
 .container_no{
   position: relative;
@@ -244,26 +241,26 @@ right: 130;
 .linkedIn_button{
 position: absolute;
 right: 170px;
-bottom:0px;
-top: 700px;
+bottom:50px;
 text-align: right;
   height: 32px;
 }
 .contact_links{
-  width: 100%
+  position: absolute;
+    right: 2%;
+  top:170;
+    width: 100%;
 }
 .gmail_button{
   position: absolute;
   right: 120px;
-  bottom:0px;
-  top: 700px;
+  bottom:50px;
   text-align: right;
     height: 32px;
 }
 .medium_button{
 position: absolute;
 right: 70px;
-bottom:0px;
-top: 700px;
+bottom:50px;
 text-align: right;
   height: 32px;
